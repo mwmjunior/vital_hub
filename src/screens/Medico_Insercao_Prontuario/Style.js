@@ -1,10 +1,11 @@
 import { Button, ButtonTitle } from '../../components/Button/Style';
-import { Container } from '../../components/Container/Style';
-import { Input } from '../../components/Input/Style';
+import { Container, ContainerScrool } from '../../components/Container/Style';
+import { Men } from '../../components/Images/Style';
+import { Input, InputLarger } from '../../components/Input/Style';
 import { InputLabel } from '../../components/Label/Style';
 import { LinkCancel } from '../../components/Links/Style';
 
-import { Logo } from '../../components/Logo/Style';
+
 import { SubTitle, SubTitleContainer } from '../../components/Subtitle/Style';
 import { Title } from '../../components/Title/Style';
 import { ContentAccount } from '../Login/Style';
@@ -15,20 +16,20 @@ import { ContentAccount } from '../Login/Style';
 export const Medico_Insercao_Prontuario = () => {
 
     return (
-
+<ContainerScrool>
         <Container>
 
-            <Logo source={require("../../assets/Men.png")} />
+            <Men source={require("../../assets/Men.png")} />
 
             
-            <Input
+            <InputLarger
                 textLabel="Informe o CEP:"
                 placeholder="Descrição"
             />
             <Input
                 placeholder="Diagnóstico"
             />
-            <Input
+            <InputLarger
                 placeholder="Prescrição medica"
             />
 
@@ -43,7 +44,7 @@ export const Medico_Insercao_Prontuario = () => {
             </ContentAccount>
 
         </Container>
-
+        </ContainerScrool>
 
     );
 

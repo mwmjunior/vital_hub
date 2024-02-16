@@ -17,6 +17,7 @@ import { Quicksand_500Medium, Quicksand_600SemiBold } from "@expo-google-fonts/q
 import { Nova_Senha } from './src/screens/Nova_Senha/Style';
 import { Cadastro } from './src/screens/Cadastro/Style';
 import { Medico_Insercao_Prontuario } from './src/screens/Medico_Insercao_Prontuario/Style';
+import { Medico_Consulta } from './src/screens/Medico_Consultas/Medico_Consultas';
 
 export default function App() {
 
@@ -100,6 +101,14 @@ export default function App() {
           component={Medico_Insercao_Prontuario}
           //titulo da tela
           options={{title: 'Medico_Insercao_Prontuario'}}
+        />
+        <Stack.Screen
+          //Login
+          name='Medico_Consulta'
+          //componente que sera chamado
+          component={Medico_Consulta}
+          //titulo da tela
+          options={{title: 'Medico_Consulta'}}
         />
 
 
