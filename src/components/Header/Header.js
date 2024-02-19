@@ -1,4 +1,6 @@
 import { ContainerHeader } from "../Container/Style";
+import { BoxUser, DataUser, ImageUser, NameUser, TextDefault } from "./Style";
+import { MaterialIcons } from "@expo/vector-icons";
 
 
 
@@ -6,18 +8,16 @@ export const Header = () => {
     return (
         <ContainerHeader>
 
-              {/* <BoxUser>
-
-                <ImageUser source={{ uri: "https://github.com/"}}/>
-
+            <BoxUser>
+                <ImageUser source={{ uri: "https://github.com/enzoquarelo.png" }} />
                 <DataUser>
-                    <TextDefault>Bem vindo</TextDefault>
-                    <NomeUser>Dr. Carlos</NomeUser>
+                    <TextDefault>Bem vindo !</TextDefault>
+                    <NameUser>Dr.Enzo</NameUser>
                 </DataUser>
-
             </BoxUser>
 
-            <MaterialIcons name="notifications" size={25} color/>   */}
+            {/* material icons */}
+            <MaterialIcons name="notifications" size={25} color="#fbfbfb" />
 
         </ContainerHeader>
     );
