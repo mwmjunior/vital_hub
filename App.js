@@ -13,7 +13,7 @@ const Stack = createNativeStackNavigator ();
 
 //import das fontes
 import {useFonts, MontserratAlternates_600SemiBold,MontserratAlternates_500Medium, MontserratAlternates_700Bold} from "@expo-google-fonts/montserrat-alternates"
-import { Quicksand_500Medium, Quicksand_600SemiBold } from "@expo-google-fonts/quicksand";
+import { Quicksand_500Medium, Quicksand_600SemiBold,Quicksand_400Regular } from "@expo-google-fonts/quicksand";
 import { Nova_Senha } from './src/screens/Nova_Senha/Style';
 import { Cadastro } from './src/screens/Cadastro/Style';
 import { Medico_Insercao_Prontuario } from './src/screens/Medico_Insercao_Prontuario/Style';
@@ -24,7 +24,7 @@ export default function App() {
   const [fontsLoaded, fontsError] = useFonts({
 
     MontserratAlternates_600SemiBold,MontserratAlternates_500Medium, MontserratAlternates_700Bold,
-    Quicksand_500Medium,Quicksand_600SemiBold
+    Quicksand_500Medium,Quicksand_600SemiBold,Quicksand_400Regular
   })
 
   if(!fontsLoaded && !fontsError){
