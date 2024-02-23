@@ -24,3 +24,29 @@ export const ModalText = styled.Text`
     margin-top: 10px ;
     font-family: "Quicksand_500Medium";
 `
+export const PatientPhoto = styled.Image`
+width: 285px;
+height: 181px;
+flex-shrink: 0;
+border-radius: 10px;
+`
+
+export const TitleModal = styled.Text`
+color: #33303E;
+font-size: 20px;
+font-family: MontserratAlternates_600SemiBold;
+margin-top: 20px;
+`
+
+export const ViewSubTitles = styled.View`
+flex-direction: row;
+gap: 20px;
+`
+
+export const SubTitle = styled.Text`
+    font-size: 17px;
+    font-family: "Quicksand_500Medium";
+    text-align: center;
+    margin-top: 20px;
+    color: #4E4B59;
+`

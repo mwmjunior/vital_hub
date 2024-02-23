@@ -1,7 +1,7 @@
 import { Modal } from "react-native";
-import { Title } from "../Title/Style";
 
-import { ModalContent, ModalText, PatientModal } from "./Style";
+
+import { ModalContent, PatientModal, PatientPhoto, SubTitle, TitleModal, ViewSubTitles } from "./Style";
 import { ButtonModal, ButtonSecondary, ButtonSecondaryTitle, ButtonTitle } from "../Button/Style";
 
 const InserctionModal = ({visible, setShowAppointment, ...rest}) => {
@@ -9,18 +9,20 @@ const InserctionModal = ({visible, setShowAppointment, ...rest}) => {
         <Modal {...rest} visible={visible} transparent={true} animationType="fade">
             <PatientModal>
                 <ModalContent>
-            <Title>Cancelar consulta</Title>
 
-            <ModalText>
-                    Ao Cancelar essa consulta, abrira uma possivel disponibilidade no
-                    seu horario, deseja mesmo cancelar essa consulta?
-
-            </ModalText>
-
+                <PatientPhoto
+            source={require("../../assets/Men.png")}
+          />
+            <TitleModal>Niccole Sarga</TitleModal>
+          
+            <ViewSubTitles>
+            <SubTitle>22 anos</SubTitle>
+            <SubTitle>niccole.sarga@gmail.com</SubTitle>
+          </ViewSubTitles>
             
                 <ButtonModal>
                 <ButtonTitle>
-                    Confirmar
+                    Inserir Prontuário
                 </ButtonTitle>
                 </ButtonModal>
                 
