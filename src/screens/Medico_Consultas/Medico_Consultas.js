@@ -10,6 +10,7 @@ import { ListComponent } from "../../components/List/List";
 import { AppointmentCard } from "../../components/AppointmentCard/AppointmentCard";
 import CancellationModal from "../../components/CancellationModal/CancellationModal";
 import InserctionModal from "../../components/InserctionModal/InsertModal";
+import SchedulingModal from "../../components/SchedulingModal/SchedulingModal";
 
 
 const Consultas = [
@@ -79,19 +80,31 @@ export const Medico_Consulta = () => {
                                 situacao={item.situacao}
                                 onPressCancel={() => setShowModalCancel(true)}
                                 onPressAppointment={() => setShowAppointment(true)}
+                                onPressScheduling={() => setShowScheduling(true)}
                             />
                         )
                     }
                 />
 
-                <CancellationModal
+                {/* <CancellationModal
                     visible={showModalCancel}
                     setShowModalCancel={setShowModalCancel}
-                />
+                /> */}
                 <InserctionModal
                     visible={showModalAppointment}
                     setShowAppointment={setShowAppointment}
                 />
+                <SchedulingModal
+                    visible={showModalCancel}
+                    setShowModalCancel={setShowModalCancel}
+                />
+
+
+
+
+
+
+
             </Container>
 
         </ContainerScrool>

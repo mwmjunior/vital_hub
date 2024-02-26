@@ -18,13 +18,24 @@ font-family: 'MontserratAlternates_600SemiBold';
 
 `
 export const InputLarger = styled(Input)`
-width: 90%;
+
 height: 121px;
 padding-bottom: 80px;
 text-align: left; /* Alinha o placeholder à esquerda */
 top: 10px; /* Ajusta a distância do placeholder do topo */
 
-
-  
+`
+export const InputSmall = styled(Input)`
+width: 88px;
+    height: 40px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    line-height: 21px; /* 150% */
+    font-size: 14px;
 
 `
+
+
