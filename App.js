@@ -18,6 +18,7 @@ import { Nova_Senha } from './src/screens/Nova_Senha/Style';
 import { Cadastro } from './src/screens/Cadastro/Style';
 import { Medico_Insercao_Prontuario } from './src/screens/Medico_Insercao_Prontuario/Style';
 import { Medico_Consulta } from './src/screens/Medico_Consultas/Medico_Consultas';
+import { Paciente_Selecionar_Clinica } from './src/screens/Paciente_Selecionar_Clinica/Paciente_Selecionar_Clinica';
 
 export default function App() {
 
@@ -109,6 +110,14 @@ export default function App() {
           component={Medico_Consulta}
           //titulo da tela
           options={{title: 'Medico_Consulta'}}
+        />
+        <Stack.Screen
+          //Login
+          name='Paciente_Selecionar_Clinica'
+          //componente que sera chamado
+          component={Paciente_Selecionar_Clinica}
+          //titulo da tela
+          options={{title: 'Paciente_Selecionar_Clinica'}}
         />
 
 

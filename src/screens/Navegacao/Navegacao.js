@@ -40,6 +40,11 @@ return(
             onPress={() => navigation.navigate
             ("Medico_Consulta")}
         />
+        <Button
+            title="Paciente - Selecionar Clinica "
+            onPress={() => navigation.navigate
+            ("Paciente_Selecionar_Clinica")}
+        />
     </View>
 
 
