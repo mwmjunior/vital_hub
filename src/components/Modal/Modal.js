@@ -11,7 +11,7 @@ import {
 } from "./Style";
 import { ScheduleAppointmentContainer, ScheduleAppointmentInput } from "../ModalAppointmentInput/Style";
 import { SubTitle, SubTitleContainerModal, SubTitleModalConfirm, SubTitleModalConfirmLabel } from "../Subtitle/Style";
-import { AppointmentLevelButtonContainer } from "../StatusButton/Styles";
+import { AppointmentLevelButtonContainer } from "../StatusButton/Style";
 import { ButtonEnter, ButtonModalAppointment, ButtonModalConfirmAppointment } from "../Button/Button";
 import { AppointmentLevelButton } from "../StatusButton/StatusButton";
 import { ButtonSecondary } from "../SecondaryButton/SecondaryButton";

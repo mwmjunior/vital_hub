@@ -43,3 +43,41 @@ color: #344f8f;
 export const ButtonModal = styled(Button)`
     width: 80% ;
 `
+
+
+export const GreyButton = styled(Button)`
+    width: 50%;
+    background-color: #ACABB7;
+`
+
+
+
+// GOOGLE SIGN-IN BUTTON
+export const GoogleButton = styled(Button)`
+    background-color: #FAFAFA;
+    border: 1px solid #496BBA;
+    flex-direction: row;
+    gap: 27px;
+`
+export const ButtonTitleGoogle = styled(ButtonTitle)`
+    color: #496BBA;
+`
+
+export const ModalAppointmentButton = styled(Button)`
+    width: 100%;
+    margin-top: 30px;
+`
+export const ModalConfirmAppointmentButton = styled(Button)`
+    width: 80%;
+    margin-top: 30px;
+`
+
+export const ButtonMedicRecord = styled(Button)`
+    width: 60%;
+    height: 44px;
+    background-color: #49B3BA;
+    align-items: center;
+`
+
+
+

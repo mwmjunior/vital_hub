@@ -1,5 +1,5 @@
 import { AppointmentCard, ClinicSelectCard, MedicSelectCard } from "../../components/Card/Card";
-import { ListCard } from "./Styles";
+import { ListCard } from "./Style";
 import { useState } from "react";
 
 export const CardList = ({ status, cardsData }) => {
