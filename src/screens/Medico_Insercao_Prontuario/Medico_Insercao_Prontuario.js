@@ -2,12 +2,7 @@ import { Button, ButtonTitle } from '../../components/Button/Style';
 import { Container, ContainerScrool } from '../../components/Container/Style';
 import { Men } from '../../components/Images/Style';
 import { Input, InputLarger } from '../../components/Input/Style';
-import { InputLabel } from '../../components/Label/Style';
 import { LinkCancel } from '../../components/Links/Style';
-
-
-import { SubTitle, SubTitleContainer } from '../../components/Subtitle/Style';
-import { Title } from '../../components/Title/Style';
 import { ContentAccount } from '../Login/Style';
 
 

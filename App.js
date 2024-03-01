@@ -16,7 +16,7 @@ import {useFonts, MontserratAlternates_600SemiBold,MontserratAlternates_500Mediu
 import { Quicksand_500Medium, Quicksand_600SemiBold,Quicksand_400Regular } from "@expo-google-fonts/quicksand";
 import { Nova_Senha } from './src/screens/Nova_Senha/Style';
 import { Cadastro } from './src/screens/Cadastro/Style';
-import { Medico_Insercao_Prontuario } from './src/screens/Medico_Insercao_Prontuario/Style';
+import { Medico_Insercao_Prontuario } from './src/screens/Medico_Insercao_Prontuario/Medico_Insercao_Prontuario';
 import { Medico_Consulta } from './src/screens/Medico_Consultas/Medico_Consultas';
 import { Paciente_Selecionar_Clinica } from './src/screens/Paciente_Selecionar_Clinica/Paciente_Selecionar_Clinica';
 import { Paciente_Selecionar_Data } from './src/screens/Paciente_Selecionar_Data/Paciente_Selecionar_Data';
