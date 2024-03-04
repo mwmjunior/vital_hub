@@ -12,6 +12,7 @@ background-Color: #FAFAFA;
 `
 
 export const ContainerScrool = styled.ScrollView`
+background-Color: #FAFAFA;
 flex: 1;
 `
 

@@ -20,6 +20,10 @@ import { Medico_Insercao_Prontuario } from './src/screens/Medico_Insercao_Prontu
 import { Medico_Consulta } from './src/screens/Medico_Consultas/Medico_Consultas';
 import { Paciente_Selecionar_Clinica } from './src/screens/Paciente_Selecionar_Clinica/Paciente_Selecionar_Clinica';
 import { Paciente_Selecionar_Data } from './src/screens/Paciente_Selecionar_Data/Paciente_Selecionar_Data';
+import { Paciente_Consultar_Local } from './src/screens/Paciente_Consultar_Local/Paciente_Consultar_Local';
+import { Paciente_Prescricao_Medica } from './src/screens/Paciente_Prescricao_Medica/Paciente_Prescricao_Medica';
+
+
 
 export default function App() {
 
@@ -120,7 +124,6 @@ export default function App() {
           //titulo da tela
           options={{title: 'Paciente_Selecionar_Clinica'}}
         />
-
         <Stack.Screen
           //Login
           name='Paciente_Selecionar_Data'
@@ -129,8 +132,24 @@ export default function App() {
           //titulo da tela
           options={{title: 'Paciente_Selecionar_Data'}}
         />
-
-
+        <Stack.Screen
+          //Login
+          name='Paciente_Consultar_Local'
+          //componente que sera chamado
+          component={Paciente_Consultar_Local}
+          //titulo da tela
+          options={{title: 'Paciente_Consultar_Local'}}
+        />
+       
+        <Stack.Screen
+          //Login
+          name='Paciente_Prescricao_Medica'
+          //componente que sera chamado
+          component={Paciente_Prescricao_Medica}
+          //titulo da tela
+          options={{title: 'Paciente_Prescricao_Medica'}}
+        />
+       
 
       </Stack.Navigator>
 
